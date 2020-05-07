@@ -1,5 +1,6 @@
 package com.company;
 
+// constructors, getters and setters 
 public class BankAccount {
 
     private int accNo,balance,phoneNo;
