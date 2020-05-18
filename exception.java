@@ -1,11 +1,10 @@
 
 // Java program to demonstrate exception is thrown 
 
-class ExceptionThrown 
-{ 
+class ExceptionThrown { 
     // This method throws the Exception(ArithmeticException). 
 
-    static int divideByZero(int a, int b){ 
+    static int divideByZero(int a, int b) { 
           
         // this statement will cause ArithmeticException(divide by zero) 
         int i = a/b;  
@@ -24,7 +23,7 @@ class ExceptionThrown
         { 
           res = divideByZero(a,b); 
         } 
-        // doesn't matches with ArithmeticException 
+        // doesn't match with ArithmeticException 
         catch(NumberFormatException ex) 
         { 
            System.out.println("NumberFormatException is occured");  
@@ -34,7 +33,7 @@ class ExceptionThrown
       
     // Appropriate Exception handler is found here (catch block). 
 
-    public static void main(String args[]){ 
+    public static void main(String args[]) { 
           
         int a = 1; 
         int b = 0; 
