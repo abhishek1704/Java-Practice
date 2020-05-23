@@ -1,4 +1,4 @@
-
+// Exception Handling
 // Java program to demonstrate exception is thrown 
 
 class ExceptionThrown { 
